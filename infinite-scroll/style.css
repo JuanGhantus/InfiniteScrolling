@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgb(24,30,42);
+    font-family:Dosis;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    letter-spacing: 7px;
+    color: #00aaff;
+}
+
+/* Loader */
+.loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(51, 59, 76);
+}
+
+.loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Image Container */
+.image-container {
+    margin: 10px 30%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Media Query */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+
+    }
+    .image-container {
+        margin: 10px;
+    }
+}

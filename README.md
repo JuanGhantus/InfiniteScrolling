@@ -1,7 +1,7 @@
 <h1>Infinite Scrolling</h1>
 
 <h2>Description</h2>
-This project is using the Unsplash API (https://unsplash.com/developers) to generate new random pictures from unsplash.com to create an "infinite" scrolling page.
+This project uses the Unsplash API (https://unsplash.com/developers) to generate new random pictures from unsplash.com to create an "infinite" scrolling page.
 <br /><br /><br />
 
 <p align="center">
